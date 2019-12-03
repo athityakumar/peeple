@@ -28,7 +28,7 @@ def peep():
 # TODO: Complete this method
 # Input: Person details as request body parameter
 # Output: 200 code if validations pass, else error message
-@app.route('/users/new', methods=["POST"])
+@app.route('/users', methods=["POST"])
 def register_user():
     # Use the request.args
     print('Register a new user')
