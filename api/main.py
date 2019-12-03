@@ -69,8 +69,4 @@ def fetch_user(user_id):
 
 
 if __name__ == '__main__':
-    try:
-        app.run(debug=True, port=5000)
-    except Exception as e:
-        print("Got exception {}".format(e))
-        app.run(debug=True, port=5000)
+    app.run(debug=True, port=5000)
